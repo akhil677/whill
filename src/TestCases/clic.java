@@ -26,11 +26,11 @@ public class clic {
 		driver.get("https://staging-5em2ouy-kkcw5lx5vcayc.ap-3.magentosite.cloud/");
 		driver.manage().window().maximize();
 		l.C2_Buy();
+//		js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
 		o.C2_color_blue();
 		Thread.sleep(1000);
 		o.C2_do_not_purchase_warranty_service();
 //		a.scrollToElement(o.C2_do_not_purchase_support_services1());
-//		js.executeScript("window.scrollBy(0,document.body.scrollHeight)");		
 		Thread.sleep(1000);
 		o.C2_do_not_purchase_support_services();
 //		a.scrollToElement(o.C2_accessories_full_set1());
@@ -45,7 +45,7 @@ public class clic {
 //		js.executeScript("window.scrollBy(0,document.body.scrollHeight)");		
 		o.C2_add_to_cart();
 	}
-
+//sfsdfsfsfsfesfre
 }
 
 
